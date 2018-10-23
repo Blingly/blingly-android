@@ -1,6 +1,8 @@
 package com.blingly.blingly;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -77,7 +79,9 @@ public class FullscreenActivity extends AppCompatActivity {
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
             if (AUTO_HIDE) {
-                delayedHide(AUTO_HIDE_DELAY_MILLIS);
+                //delayedHide(AUTO_HIDE_DELAY_MILLIS);
+                Intent intent = new Intent(FullscreenActivity.this, MainActivity.class);
+                startActivity(intent);
             }
             return false;
         }
