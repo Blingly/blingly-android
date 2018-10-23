@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "192687676962",
+    "firebase_url": "https://blingly-7aa69.firebaseio.com",
+    "project_id": "blingly-7aa69",
+    "storage_bucket": "blingly-7aa69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192687676962:android:808dbad226038a7d",
+        "android_client_info": {
+          "package_name": "com.blingly.blingly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192687676962-sf884qj7usdcnkhrddkj1d0iccl1mrrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blingly.blingly",
+            "certificate_hash": "46850658604d872250330d81b9b22bdbcf471066"
+          }
+        },
+        {
+          "client_id": "192687676962-2ru1d1fo3ov2quajs7ecp4pq1k1gtp3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADR610K7OCGzOsUfopytyHKoep2kpRS4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192687676962-2ru1d1fo3ov2quajs7ecp4pq1k1gtp3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
